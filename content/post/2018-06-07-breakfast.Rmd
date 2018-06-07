@@ -1,0 +1,21 @@
+---
+title: Breakfast
+author: Jonas Gathen
+date: '2018-06-07'
+slug: breakfast
+categories:
+  - R
+tags:
+  - regression
+  - R Markdown
+header:
+  caption: ''
+  image: ''
+---
+
+Hello. This is one blogpost. It also includes code
+
+```{r include=TRUE, echo=TRUE}
+x = 5
+```
+
