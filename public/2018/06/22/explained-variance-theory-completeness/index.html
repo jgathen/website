@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jonas Gathen" />
+    <meta name="description" content="Describe your website">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <title>Explained variance &amp; theory completeness</title>
+    <meta name="generator" content="Hugo 0.41" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    
+  </head>
+
+  <body>
+    <div id="wrap">
+
+      
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/"><i class="fa fa-home"></i></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="/blog/">BLOG</a></li>
+        
+        <li><a href="/projects/">PROJECTS</a></li>
+        
+        <li><a href="/resume/">RESUME</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      
+      <div class="container">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="/2018/06/22/explained-variance-theory-completeness/">Explained variance &amp; theory completeness</a></strong>
+          </h3>
+        </div>
+        <div class="blog-title">
+          <h4>
+          June 22, 2018
+            &nbsp;&nbsp;
+            
+          </h4>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              <p>This post deals with a general topic I have long thought about and which touches upon many different areas of applied work. I recently attended a <a href="https://www.iast.fr/conferences/2018-developmental-origins-economic-preferences">conference on the developmental origins of economic preferences</a> here in Toulouse, organized by the wonderful <a href="https://www.iast.fr/">Institute for Advanced Studies Toulouse</a>, which put this topic back on my mind and made me want to write this piece. Specifically, there were two encounters or observations that spawned my interest. Let me start with the first, which was just a sentence in a very interesting presentation by <a href="https://www.iame.uni-bonn.de/people/fabian-kosse">Fabian Kosse</a> on <a href="https://www.iame.uni-bonn.de/people/fabian-kosse/the-formation-of-prosociality-causal-evidence-on-the-role-of-social-environment">the causal role of social environment in shaping pro-sociality among children</a>. The topic of the talk could itself be worth a blog-post, but I actually got hooked by a minor thing he said early on in the talk. I don’t remember exactly the numbers and the reference, but that doesn’t matter for my arguments and comments below. The idea was that based on solid evidence from twin studies, genetics can only explain around 20% of the variation in differences among children’s outcomes (don’t ask me which outcomes; maybe Fabian Kosse can give me a link here) and this was seen as legitimizing evidence for looking closer at differences in childhood development to understand developmental outcomes. As a preliminary note, I should say that I don’t know enough about the empirical and theoretical evidence of developmental psychology, genetics and other disciplines on child development to make any comments on the state of knowledge here; though I am pretty sure that Fabian Kosse represented the literature fairly and there were also some developmental psychologists in the room who seemed to agree (or at least not openly disagree). Also, I am personally sympathetic to the idea that child development is importantly influenced by the social environment and not solely (or even majorly) by genetics. Having said that, in this blogpost, I want to focus on <strong>how</strong> we arrive at a number as “we can explain around 20% of the variation in differences …” and <strong>what</strong> this number tells us.</p>
+<p>To begin with, we can look exactly at where this 20% number comes from. .. Usually some form of linear regression, allow simple non-linearities by including some interactions and quadratic terms. This number captures a measure of goodness of fit, namely how much of the observed variance in y can be explained by the regression we run. But there is a problem in this approach which is seldomly mentioned in introductory statistics and econometrics courses, but is central to much of the machine/statistical learning literature. The problem is that this share of the variance is fit with some model in mind; namely a polynomial function (potentially including many interaction terms, higher-order polynomials etc.). It could be possible that our underlying theory is so strong as to fully legitimize this approach, invalidating other functional forms we could assume for our model. I would argue that this case is seldomly given and that there is always some large remaining ambiguity over which functional forms or models could explain the data we see. But even if this would be the case, we must be able to assess this claim empirically, as long as we have the sufficient data to do so. Take the relationship between genetics and child development; we might not exactly know how the true relationship works here. For instance, polynomial functions are continuous, which might be a good approximation to many social processes we see, but it might also be likely that some processes causing genetics to influence child development - like thresholds that play a role in activating certain genes - work discontinuously. There are many different functional forms that other methods and algorithms can approximate. The question then is how to evaluate how much variance can be explained by a model if this model could be anything. The Machine Learning answer to this is framed in terms of overfitting and prediction. The point is that any data can be fit perfectly with a flexible-enough model (e.g. two data points can always be perfectly fit with a line). So the 20% number we have discussed above is not set in stone; just fitting a more flexible model of how genetics influence child development, we can even reach a 100%. This is highly unsatisfactory.</p>
+<p>Machine Learning deals with this issue by forcing the fit of a model on only a subset of the data (which is called training the model) and then evaluates how well this model predicts on a subset of the data that the model has not seen. This out-of-sample prediction is then used to evaluate goodness of fit. One of the fundamental trade-offs in Machine Learning is between model complexity and out-of-sample goodness of fit. A model that fits perfectly on the training data will often not perform very well on the out-of-sample test data and we then talk about overfitting. There are many ways in Machine Learning deals with the issue of overfitting in a credible manner and without going further into this here, let us assume that with some Machine Learning algorithm we obtain an out-of-sample prediction which is much higher than the 20% given above (there are again many ways to measure goodness of fit through prediction, but let’s just assume that this gives us a comparable measure). What does this tell us now?</p>
+<p>There are again a number of things I think one can learn from this and also some caveats for what we can learn from our given empirical and theoretical methods in the Social Sciences and arguably across the entire scientific endeavor. Let us look at . different scenarios.</p>
+<p>Scenario: Our theory tells us that a polynomial functional form with a few given interactions and polynomial terms sums up our knowledge of how genes interact with child development. We find that these factors can explain 20% of the variation in y. Now, we assume we have a lot of data and some data scientists who don’t know anything about genetics and child development fit a fancy Machine Learning model including only genetic variables and get to an out-of-sample fit of say 50%. What does this tell us? It might tell us multiple things. First, it can tell us that the underlying theory is actually very weak, and that we capture only a fraction of the true variance we could explain with solely genetic factors. This is related to the literature on theory completeness (see <span class="citation">@Peysakhovich2017</span> &amp; <span class="citation">@Kleinberg2017completeness</span>) and relates to the question: what is the reference of 20% or 50% of variation explained? Formally, we are asking for the true data generating process (DGP). If we have a DGP of the following form: <span class="math inline">\(y = f(x) + \epsilon\)</span> with <span class="math inline">\(\epsilon\)</span> distributed in some way, the total variance we will be able to explain even with the best model of <span class="math inline">\(f(x)\)</span> is limited by the unexplainable variance of <span class="math inline">\(\epsilon\)</span>. Importantly, this is not usually known, which makes it hard to assess whether our theory is complete (i.e. captures most of the explainable variation in y). <span class="citation">@Kleinberg2017completeness</span> argue that ML can help here in giving some reasonable bounds to the explainable variation in the data and thus some standard with which we can assess the completeness of a theory. This is nice and jolly, but there are clear limitations to this approach. First, I think a major limitation is data availability concerning both the availability of important covariates and the availability of a lot of observations. Machine Learning methods only work well when we have both, but in many contexts we will have neither. Which variables we have access to is usually strongly influenced by the theories with which we look at the world and observations are usually limited; this makes it hard to exploit the full power of ML models. Another important point, which I am not sure if it has been fully acknowledged, is that even if our fancy ML model can explain 50% in contrast to 20% derived from the theoretical model, this will not necessarily tell us that we are missing something. The difference could also partly be explained by data measurement issues, where we have systematic measurement issues which our ML model captures, but the theoretical model (which assumes that everything is measured correctly) ignores.</p>
+<p>Having said all this, there are a few key take aways. First, it is generally not possible to know how much our theories are missing about the real world, but ML tools might be able to give us some idea whether we are far off in some contexts where we have enough data (though it might also be related to measurement problems, as I mentioned). Second, it is far more credible to look at predictive, out-of-sample accuracy than in-sample goodness of fit. This is the standard we judge ML methods by, but should also be the standard by which we judge non-ML methods. I think we are still far away from this. For example, when I wrote my undergrad thesis, I had a few discussions with my supervisor who said that we shouldn’t care that much about the explanatory power of our regressions since we could easily add all sorts of fixed effects to our theoretical models and thus artificially increase the explanatory power of our models. However, this only works as long as we do not use out-of-sample predictions. Also, a standard stylized fact in empirical research is that cross-sectional data is usually very hard to explain, while due to strong autocorrelation in many social domains, time-series or panel data usually comes with much higher goodness of fit. When looking at out-of-sample predictions, this difference might also change.</p>
+<ul>
+<li>Comment on approach of measuring effect in data by looking at p-values. Are social phenomena explained by the interaction and aggregation of many small effects or of some major effects plus many small ones which have very little combined explanatory power? ML can help with that question. We don’t expect effects to be zero, so with enough data, all effects are significant. Psychology and similar research needs more credible strategies to assess whether a theory is relevant.</li>
+</ul>
+<p>– Question on functions: Does the prediction space have to be describable by a funtion? Isn’t a function constrained to map many to one, while it cannot map one to many?</p>
+<p>The second observation I made during the conference, and which I want to link to the first observation, is more general in nature and regards the use of statistical evidence for specific theories. Many of the talks I listened to during the conference and I would argue representatively of much of the quantitative empirical research that is done in Psychology, but also many other areas of Behavioral research including Behavioral Economics, presented a theoretical framework and then showed some empirical evidence in favor of this through a form of hypothesis testing based on the frequentist paradigm of statistical significance. Today, I don’t want to focus on criticising this empirical framework, but instead take this evidence as given, but ask what it tells us and what it <strong>can</strong> tell us.</p>
+
+              <hr>
+              <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+        <div class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+
+      var disqus_shortname = '';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+        </div>
+      </div>
+      
+    </div>
+
+    
+    <footer>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io/">Hugo</a> and
+      <a href="http://www.github.com/nurlansu/hugo-sustain/">sustain</a> with ♥</p>
+    </div>
+  </div>
+</footer>
+<div class="footer"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/docs.min.js"></script>
+<script src="/js/main.js"></script>
+
+<script src="/js/ie10-viewport-bug-workaround.js"></script>
+
+
+    
+  </body>
+</html>

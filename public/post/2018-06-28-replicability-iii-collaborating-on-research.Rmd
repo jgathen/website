@@ -1,0 +1,12 @@
+---
+title: Replicability III - Collaborating on research
+author: Jonas Gathen
+date: '2018-06-28'
+slug: replicability-iii-collaborating-on-research
+categories: []
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
