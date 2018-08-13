@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Hello</title>
+      <link>/post/hello/</link>
+      <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hello/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Breakfast</title>
       <link>/post/breakfast/</link>
       <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>

@@ -1,0 +1,37 @@
+---
+title: "Replicability I - Managing the workflow"
+author: "Jonas Gathen"
+date: '2018-06-28'
+header:
+  caption: ''
+  image: ''
+slug: replicability-i-managing-the-workflow
+tags: []
+categories: []
+---
+
+
+In this post, I am going to introduce a few helpful tools to manage one's workflow in R (specifically RStudio). While this serves as a reminder for myself, I still hope this is helpful for a few people. 
+
+There are different reasons to use the different tools I outline below; not all of which might be important to all kinds of research projects. Let's start out with the most fundamental, which I personally use for any research; no matter whether it is a small personal project or a larger project where I collaborate with others. 
+
+## Knittr & RMarkdown
+
+## Git(hub) & Version Control
+
+## Dependency Management: sessionInfo(), checkpoint & Packrat
+
+"It is important to understand the reasons that reproducible programming is challenging. Once programming practices and external data are taken into account, the primary difficulty is dependency management over time. Dependency management is important because dependencies are so essential to R development. R has a fast-moving community and many extremely valuable packages to make your work more effective and efficient." see [R Views](https://rviews.rstudio.com/2018/01/18/package-management-for-reproducible-r-code/). 
+
+A research project at a given time, depends on the state of packages at that time. With changes to the R Version and to specific packages, reproducibility of code may easily break down since some functions might be deprecated or work differently. This can be a big problem in any software environment. A starting point is to check package dependencies at a given time via `sessionInfo()`. This does not help to rebuild your dependency tree, but it gives you an idea about future reproducibility issues. Before moving to more robust ways to solve package dependencies, I personally think it is good to have an idea about the package dependencies in a project and try to use major and well-maintained packages for most of the analyses (e.g. `tidyverse`). 
+
+Moving on to the more general solutions to package dependencies: `checkpoint` & `Packrat`. `checkpoint` & `Packrat` both take the approach of creating a personal library for each project instead of relying on a system-wide library where all packages are saved. `checkpoint` relies on copies from CRAN only while `Packrat` also allows packages from other sources including github. I will thus focus on `Packrat` only. I should note here that there are even more general solutions to package and version dependencies given for example by `Rocker`. I have never worked with this and my impression was that this is only really relevant when deploying software and integrating code into applications which must be robust at all cost.
+
+`Packrat` keeps track of packages used. It achieves two main tasks. First, it solves a major issue of replicability by saving the state of packages within a project. This allows you to re-run former analyses even if packages have changed in the meantime and some function calls have been deprecated. It does so by wrapping an R-Project into a `Packrat`-Project. Second, it easily integrates with Git(hub) by telling you to install or load packages when pulling from the main branch which uses packages that are not yet installed or loaded. This is super helpful when you work collaboratively on code and your coauthors start using new packages. 
+
+To use it, just install the `Packrat` package from within R. Then, whenever you start a new project, you can select to create it as a `Packrat` project. You can also initialize it within a given R Project by running `packrat::init()` (see [Intro](http://rstudio.github.io/packrat/walkthrough.html), [further info](http://rstudio.github.io/packrat/rstudio.html) and [limitations](http://rstudio.github.io/packrat/limitations.html)). 
+
+## Drake
+
+
+

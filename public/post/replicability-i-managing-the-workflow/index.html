@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="" />
+    
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <title>Replicability I - Managing the workflow</title>
+    <meta name="generator" content="Hugo 0.41" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    
+  </head>
+
+  <body>
+    <div id="wrap">
+
+      
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/"><i class="fa fa-home"></i></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="#about">HOME</a></li>
+        
+        <li><a href="#publications_selected">PUBLICATIONS</a></li>
+        
+        <li><a href="#posts">POSTS</a></li>
+        
+        <li><a href="#projects">PROJECTS</a></li>
+        
+        <li><a href="#teaching">TEACHING</a></li>
+        
+        <li><a href="#contact">CONTACT</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      
+      <div class="container">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="/post/replicability-i-managing-the-workflow/">Replicability I - Managing the workflow</a></strong>
+          </h3>
+        </div>
+        <div class="blog-title">
+          <h4>
+          June 28, 2018
+            &nbsp;&nbsp;
+            
+          </h4>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              <p>In this post, I am going to introduce a few helpful tools to manage one’s workflow in R (specifically RStudio). While this serves as a reminder for myself, I still hope this is helpful for a few people.</p>
+<p>There are different reasons to use the different tools I outline below; not all of which might be important to all kinds of research projects. Let’s start out with the most fundamental, which I personally use for any research; no matter whether it is a small personal project or a larger project where I collaborate with others.</p>
+<div id="knittr-rmarkdown" class="section level2">
+<h2>Knittr &amp; RMarkdown</h2>
+</div>
+<div id="github-version-control" class="section level2">
+<h2>Git(hub) &amp; Version Control</h2>
+</div>
+<div id="dependency-management-sessioninfo-checkpoint-packrat" class="section level2">
+<h2>Dependency Management: sessionInfo(), checkpoint &amp; Packrat</h2>
+<p>“It is important to understand the reasons that reproducible programming is challenging. Once programming practices and external data are taken into account, the primary difficulty is dependency management over time. Dependency management is important because dependencies are so essential to R development. R has a fast-moving community and many extremely valuable packages to make your work more effective and efficient.” see <a href="https://rviews.rstudio.com/2018/01/18/package-management-for-reproducible-r-code/">R Views</a>.</p>
+<p>A research project at a given time, depends on the state of packages at that time. With changes to the R Version and to specific packages, reproducibility of code may easily break down since some functions might be deprecated or work differently. This can be a big problem in any software environment. A starting point is to check package dependencies at a given time via <code>sessionInfo()</code>. This does not help to rebuild your dependency tree, but it gives you an idea about future reproducibility issues. Before moving to more robust ways to solve package dependencies, I personally think it is good to have an idea about the package dependencies in a project and try to use major and well-maintained packages for most of the analyses (e.g. <code>tidyverse</code>).</p>
+<p>Moving on to the more general solutions to package dependencies: <code>checkpoint</code> &amp; <code>Packrat</code>. <code>checkpoint</code> &amp; <code>Packrat</code> both take the approach of creating a personal library for each project instead of relying on a system-wide library where all packages are saved. <code>checkpoint</code> relies on copies from CRAN only while <code>Packrat</code> also allows packages from other sources including github. I will thus focus on <code>Packrat</code> only. I should note here that there are even more general solutions to package and version dependencies given for example by <code>Rocker</code>. I have never worked with this and my impression was that this is only really relevant when deploying software and integrating code into applications which must be robust at all cost.</p>
+<p><code>Packrat</code> keeps track of packages used. It achieves two main tasks. First, it solves a major issue of replicability by saving the state of packages within a project. This allows you to re-run former analyses even if packages have changed in the meantime and some function calls have been deprecated. It does so by wrapping an R-Project into a <code>Packrat</code>-Project. Second, it easily integrates with Git(hub) by telling you to install or load packages when pulling from the main branch which uses packages that are not yet installed or loaded. This is super helpful when you work collaboratively on code and your coauthors start using new packages.</p>
+<p>To use it, just install the <code>Packrat</code> package from within R. Then, whenever you start a new project, you can select to create it as a <code>Packrat</code> project. You can also initialize it within a given R Project by running <code>packrat::init()</code> (see <a href="http://rstudio.github.io/packrat/walkthrough.html">Intro</a>, <a href="http://rstudio.github.io/packrat/rstudio.html">further info</a> and <a href="http://rstudio.github.io/packrat/limitations.html">limitations</a>).</p>
+</div>
+<div id="drake" class="section level2">
+<h2>Drake</h2>
+</div>
+
+              <hr>
+              <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+        <div class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+
+      var disqus_shortname = '';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+        </div>
+      </div>
+      
+    </div>
+
+    
+    <footer>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io/">Hugo</a> and
+      <a href="http://www.github.com/nurlansu/hugo-sustain/">sustain</a> with ♥</p>
+    </div>
+  </div>
+</footer>
+<div class="footer"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/docs.min.js"></script>
+<script src="/js/main.js"></script>
+
+<script src="/js/ie10-viewport-bug-workaround.js"></script>
+
+
+    
+  </body>
+</html>
