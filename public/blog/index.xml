@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jonas Gathen</title>
-    <link>/</link>
-    <description>Recent content on Jonas Gathen</description>
+    <title>Posts on Jonas Gathen</title>
+    <link>/blog/</link>
+    <description>Recent content in Posts on Jonas Gathen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Multiple Causes</title>
-      <link>/2018/08/15/multiple-causes/</link>
-      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/08/15/multiple-causes/</guid>
-      <description>The credibility revolution of the past decades in Economics and the social sciences in general has had a tremendous impact. Everyone talks about identification strategies and causal effects, about treatments and various treatment effects. I laud this general development, though in my opinion it has also led many research agendas to be guided by fairly reductionist accounts of causality. We are looking for THE causal effect from education to income, from THE causal effect from institutions to economic growth, from THE causal effect from x to y.</description>
-    </item>
     
     <item>
       <title>Research Statement</title>
@@ -73,33 +64,6 @@ There are different reasons to use the different tools I outline below; not all 
       
       <guid>/blog/statistics-econometrics-ml/explained-variance-theory-completeness/</guid>
       <description>This post deals with a general topic I have long thought about and which touches upon many different areas of applied work. I recently attended a conference on the developmental origins of economic preferences here in Toulouse, organized by the wonderful Institute for Advanced Studies Toulouse, which put this topic back on my mind and made me want to write this piece. Specifically, there were two encounters or observations that spawned my interest.</description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>/projects/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
-      
-      <guid>/projects/deep-learning/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>/projects/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
-      
-      <guid>/projects/example-external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research statement</title>
-      <link>/research_statement/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/research_statement/</guid>
-      <description>Intro My research interests span across disciplines and subdisciplines. I am fundamentally interested in how societies change in the process of development. To understand this process of development better, my research focusses on three different angles. My primary research focus is on the political economy of development. I believe that a major determinant of processes of development is how political and economic institutions and actors intertwine. This relates not only to the focus of the literature on how political institutions and actors undermine the workings of the economy, coopt and distort the economy, but also to how economic changes impact the political system at different levels.</description>
     </item>
     
   </channel>

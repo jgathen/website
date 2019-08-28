@@ -6,76 +6,18 @@
     <description>Recent content in Posts on Jonas Gathen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 15 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Research Statement</title>
-      <link>/2018/07/07/research-statement/</link>
-      <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
+      <title>Multiple Causes</title>
+      <link>/2018/08/15/multiple-causes/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/07/07/research-statement/</guid>
-      <description>This document is a work in progress trying to capture my research agenda and underlying research philosophy. I do not believe that Science evolves linearly and while I believe it is generally laudible to be driven by fundamental, society-relevant questions, I also believe that a lot of progress in Science happens from applying new methods. My own research is thus a combination of being attracted to specific fundamental questions and specific methods.</description>
-    </item>
-    
-    <item>
-      <title>Replicability 0 - Introduction</title>
-      <link>/2018/06/28/replicability-0-introduction/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/06/28/replicability-0-introduction/</guid>
-      <description>This post is the start of a series on replicability practices. Replicability and the replication crisis across many/most science disciplines (links) is a major issue that affects human knowledge production in general, specifically all realms where decision-making, (scientific) research and the public interact in some way. Arguably, replicability has always been a major issue for scientific research. The history of science is full of poorly designed experiments (quote; Nazis, Duflo RCT example on ethics, prior physics, chemistry research?</description>
-    </item>
-    
-    <item>
-      <title>Replicability I - Managing the workflow</title>
-      <link>/2018/06/28/replicability-i-managing-the-workflow/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/06/28/replicability-i-managing-the-workflow/</guid>
-      <description>In this post, I am going to introduce a few helpful tools to manage one’s workflow in R (specifically RStudio). While this serves as a reminder for myself, I still hope this is helpful for a few people.
-There are different reasons to use the different tools I outline below; not all of which might be important to all kinds of research projects. Let’s start out with the most fundamental, which I personally use for any research; no matter whether it is a small personal project or a larger project where I collaborate with others.</description>
-    </item>
-    
-    <item>
-      <title>Replicability II: Code writing practice</title>
-      <link>/2018/06/28/replicability-ii-code-writing-practice/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/06/28/replicability-ii-code-writing-practice/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Replicability III - Collaborating on research</title>
-      <link>/2018/06/28/replicability-iii-collaborating-on-research/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/06/28/replicability-iii-collaborating-on-research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Explained variance &amp; theory completeness</title>
-      <link>/2018/06/22/explained-variance-theory-completeness/</link>
-      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/06/22/explained-variance-theory-completeness/</guid>
-      <description>This post deals with a general topic I have long thought about and which touches upon many different areas of applied work. I recently attended a conference on the developmental origins of economic preferences here in Toulouse, organized by the wonderful Institute for Advanced Studies Toulouse, which put this topic back on my mind and made me want to write this piece. Specifically, there were two encounters or observations that spawned my interest.</description>
-    </item>
-    
-    <item>
-      <title>Academic: the website designer for Hugo</title>
-      <link>/2016/04/20/academic-the-website-designer-for-hugo/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0700</pubDate>
-      
-      <guid>/2016/04/20/academic-the-website-designer-for-hugo/</guid>
-      <description>Academic is a framework to help you create a beautiful website quickly. Perfect for personal sites, blogs, or business/project sites. Check out the latest demo of what you&amp;rsquo;ll get in less than 10 minutes. Then head on over to the Quick Start guide or take a look at the Release Notes.
-
-Key features:
- Easily manage various content including homepage, blog posts, publications, talks, and projects Extensible via color themes and widgets/plugins Write in Markdown for easy formatting and code highlighting, with LaTeX for mathematical expressions Social/academic network linking, Google Analytics, and Disqus comments Responsive and mobile friendly Simple and refreshing one page design Multilingual and easy to customize  Color Themes Academic is available in different color themes and font themes.</description>
+      <guid>/2018/08/15/multiple-causes/</guid>
+      <description>The credibility revolution of the past decades in Economics and the social sciences in general has had a tremendous impact. Everyone talks about identification strategies and causal effects, about treatments and various treatment effects. I laud this general development, though in my opinion it has also led many research agendas to be guided by fairly reductionist accounts of causality. We are looking for THE causal effect from education to income, from THE causal effect from institutions to economic growth, from THE causal effect from x to y.</description>
     </item>
     
   </channel>

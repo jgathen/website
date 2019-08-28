@@ -6,17 +6,17 @@
     <description>Recent content in Demo on Jonas Gathen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>External Project</title>
-      <link>/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0700</pubDate>
+      <link>/projects/example-external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/project/example-external-project/</guid>
+      <guid>/projects/example-external-project/</guid>
       <description></description>
     </item>
     

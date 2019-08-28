@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jonas Gathen" />
+    <meta name="description" content="This is my website">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <title>Replicability 0 - Introduction</title>
+    <meta name="generator" content="Hugo 0.41" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    
+  </head>
+
+  <body>
+    <div id="wrap">
+
+      
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/"><i class="fa fa-home"></i></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="/research_statement/">RESEARCH STATEMENT</a></li>
+        
+        <li><a href="/projects/">PROJECTS</a></li>
+        
+        <li><a href="/blog/">BLOG</a></li>
+        
+        <li><a href="/cv.pdf">CV</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      
+      <div class="container">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="/blog/replicability-0-introduction/">Replicability 0 - Introduction</a></strong>
+          </h3>
+        </div>
+        <div class="blog-title">
+          <h4>
+          June 28, 2018
+            &nbsp;&nbsp;
+            
+          </h4>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              <p>This post is the start of a series on replicability practices. Replicability and the replication crisis across many/most science disciplines (links) is a major issue that affects human knowledge production in general, specifically all realms where decision-making, (scientific) research and the public interact in some way. Arguably, replicability has always been a major issue for scientific research. The history of science is full of poorly designed experiments (quote; Nazis, Duflo RCT example on ethics, prior physics, chemistry research?), misdirecting research findings that were driven by false but poorly articulated hypotheses and assumptions (quote; think Nazi experiments), results driven by mismeasurement or old data (think Marx, others?)… I also do not want to make a strong dichotomy between empirical and theoretical research here, but do want to note a few differences in replicability between theoretical and empirical research. Taking Economics as a discipline as an example, up to the formalization revolution in the 20th century, first under the marginalists, and then under the American school led by Samuelson and others, a lot of prior theoretical work was eventually discarded or strongly amended due to ‘replicability’ issues. This formalization revolution - while criticized on many fronts - has made theoretical work in Economics incomparably more replicable. In a poor attempt to classify different forms of theoretical replicability, one could distinguish between pure mathematical replicability - whether the math holds up - and something I might call realist replicability - whether the theory actually approximates what it claims to approximate. Except the occasional (and important!) corrections on published work, Econ has mostly mastered mathematical replicability, while realist replicability is a lot more uncertain. Since models always approximate (misguidedly summarized by ‘all models are wrong’), there is the real possibility that the approximation is wrong, that the model does not actually capture something interesting about the real world, which doesn’t invalidate the math, but invalidates the usefullness of the model. While highly interesting, this series of posts is not on this theoretical replicability.</p>
+<p>Replicability in empirical research could also be further classified. There is an evolving literature that is closely linked with theory, which further formalizes the assumptions we make when modeling certain phenomena and estimating parameters. This research produces a stream of replicability issues; invalidating old usages of methods and models that were based on false or restrictive assumptions. On the other hand, there is also a more mechanical form of replicability, comparable to pure mathematical replicability. This form of replicability is generally more messy in empirical research and includes the replicability of data collection and measurement, the replicability of data processing and data cleaning and the replicability of empirical analyses and robustness checks. This is not perfectly separable from the first form of replicability since it also includes the robustness to different assumptions made throughout the data processing and cleaning stage. Importantly, it also includes pitfalls in forming conclusions from empirical analyses, from misinterpreting data, from selectively reporting results, etc. (which might also be an issue in more theoretical work).</p>
+<p>This more messy replicability in empirical research is what I want to focus on in this series of blog posts. To start out, I want to give a few numbers that should make clear how big of an issue it is. Psychological science has arguably attracted most media attention of facing a replicability crisis (Pashler &amp; Wagenmakers, 2012) and a systematic attempt to replicate 100 psychology studies showed that only 36% yielded significant replication (Open Science Collaboration, 2015). “The landmark article “Why Most Published Research Findings Are False” (Ioannidis, 2005b) was relevant to all scientific research, however. It was for example accompanied by an article that focused on medical research, showing that of the 49 most highly cited medical articles, only 34 had been tested for replication and, of these, 14 (41%) had been shown convincingly to be wrong; five of six studies (83%) with nonrandomized designs failed to replicate (Ioannidis, 2005a). In another attempt to replicate 17 structural brain-behavior findings, the authors concluded that they “were unable to successfully replicate any” (Boekel et al., 2015, p. 127).” (Passage from Plomin et al 2015, Behavioral Genetics) In Economics, there were also a number of systematic replication attempts. For experimental economics, Colin Camerer and others have tried to replicate 18 studies, finding that about 40% of studies did not replicate and that replicated effect sizes are on average about 66% of the original effect sizes (<a href="http://science.sciencemag.org/content/351/6280/1433" class="uri">http://science.sciencemag.org/content/351/6280/1433</a>). For macroeconomic work, Andrew Chang &amp; Philip Li (<a href="https://www.aeaweb.org/articles?id=10.1257/aer.p20171034" class="uri">https://www.aeaweb.org/articles?id=10.1257/aer.p20171034</a>) looked at 67 macro papers and fail to replicate half of them, a large part also due to authors not willing to share code and data even though this was required by the journal. But even when excluding these, 25% do not replicate. This is especially alarming, because these are very lenient standards of just requiring that original code produces the same results.</p>
+
+              <hr>
+              <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+        <div class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+
+      var disqus_shortname = '';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+        </div>
+      </div>
+      
+    </div>
+
+    
+    <footer>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io/">Hugo</a> and
+      <a href="http://www.github.com/nurlansu/hugo-sustain/">sustain</a> with ♥</p>
+    </div>
+  </div>
+</footer>
+<div class="footer"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/docs.min.js"></script>
+<script src="/js/main.js"></script>
+
+<script src="/js/ie10-viewport-bug-workaround.js"></script>
+
+
+    
+  </body>
+</html>
