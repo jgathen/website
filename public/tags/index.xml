@@ -6,17 +6,17 @@
     <description>Recent content in Tags on Jonas Gathen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Deep Learning</title>
-      <link>/tags/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      <title>Computational Macro</title>
+      <link>/tags/computational-macro/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0200</pubDate>
       
-      <guid>/tags/deep-learning/</guid>
+      <guid>/tags/computational-macro/</guid>
       <description></description>
     </item>
     
@@ -26,6 +26,24 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>/tags/demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>/tags/development/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Political Economy</title>
+      <link>/tags/political-economy/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/political-economy/</guid>
       <description></description>
     </item>
     

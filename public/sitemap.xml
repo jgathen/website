@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/research_projects/patronage_economy/</loc>
+    <lastmod>2019-08-29T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2018/08/15/multiple-causes/</loc>
     <lastmod>2018-08-15T00:00:00+00:00</lastmod>
   </url>
@@ -43,12 +48,7 @@
   </url>
   
   <url>
-    <loc>/projects/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/example-external-project/</loc>
+    <loc>/research_projects/example-external-project/</loc>
     <lastmod>2016-04-27T00:00:00+02:00</lastmod>
   </url>
   
@@ -58,14 +58,20 @@
   </url>
   
   <url>
-    <loc>/tags/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+02:00</lastmod>
+    <loc>/tags/computational-macro/</loc>
+    <lastmod>2019-08-29T00:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/demo/</loc>
     <lastmod>2016-04-27T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/development/</loc>
+    <lastmod>2019-08-29T00:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -83,7 +89,13 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-08-15T00:00:00+00:00</lastmod>
+    <lastmod>2019-08-29T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/political-economy/</loc>
+    <lastmod>2019-08-29T00:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -94,18 +106,18 @@
   </url>
   
   <url>
-    <loc>/projects/</loc>
-    <lastmod>2016-04-27T00:00:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/research_statement/</loc>
   </url>
   
   <url>
+    <loc>/research_projects/</loc>
+    <lastmod>2019-08-29T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
-    <lastmod>2016-04-27T00:00:00+02:00</lastmod>
+    <lastmod>2019-08-29T00:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   

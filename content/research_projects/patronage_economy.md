@@ -1,19 +1,19 @@
 +++
 # Date this page was created.
-date = 2016-04-27T00:00:00
+date = 2019-08-29T00:00:00
 
 # Project title.
-title = "Deep Learning"
+title = "The Consequences of the Patronage Economy"
 
 # Project summary to display on homepage.
-summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary = "Evidence from a heterogeneous occupational choice model fit to Suharto- and post-Suharto Indonesia"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "bubbles.jpg"
+image_preview = "bandung-indonesia.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["deep-learning"]
+tags = ["political-economy","computational macro","development"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

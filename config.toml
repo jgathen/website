@@ -31,10 +31,10 @@ theme = "hugo-sustain"
   weight = 100
   url = "/research_statement/"
 [[menu.main]]
-  name = "projects"
-  identifier = "projects"
+  name = "research projects"
+  identifier = "research projects"
   weight = 200
-  url = "/projects/"
+  url = "/research_projects/"
 [[menu.main]]
   name = "blog"
   weight = 300
