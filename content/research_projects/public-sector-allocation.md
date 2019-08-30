@@ -1,25 +1,31 @@
 +++
 # Date this page was created.
-date = 2016-04-27T00:00:00
+date = 2019-09-31T00:00:00
 
 # Project title.
-title = "External Project"
+title = "Allocation of talent in the public sector over the course of development"
 
 # Project summary to display on homepage.
-summary = "An example of linking directly to an external project website using `external_link`."
+summary = "..."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "boards.jpg"
+image_preview = "bureaucracy-drawer.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["demo"]
+tags = ["political-economy","development","simulation","computational"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://example.org"
+external_link = ""
 
 # Does the project detail page use math formatting?
 math = false
 
+# Optional featured image (relative to `static/img/` folder).
+[header]
+image = "bureaucracy-education.jpg"
+caption = "Bureaucracy"
+
 +++
+
 
