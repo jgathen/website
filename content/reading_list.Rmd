@@ -1,0 +1,228 @@
+---
+title: "Reading list Macro-Development"
+author: "TSE Macro + Development PhD students"
+date: "13th September, 2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+This document gives a preliminary outline of the readings for the PhD macro reading group for the fall semester 2019 at TSE. The overall topic of the reading group this semester focusses on macro development, although a couple of seminal non-development macro papers will be discussed as well. The schedule of the reading group will consist of a number of semi-independent parts that will all take between 1 to 3 weeks. PhD students wanting to participate in a few sessions of the reading group should seek to commit at least for entire parts. Below, each section will outline readings for a separate part. **Readings in bold are required reading before each session**. Other readings listed are optional readings that may also be discussed during the sessions or can be read afterwards. 
+
+## Part 1: Misallocation and Development
+
+Misallocation on factor markets (capital and labor misallocation) provides an important framework with which one can better understand growth and development. Given that any distortion of factor markets can lead to misallocation, numerous different literatures can be framed in terms of "misallocation". Here, we start with a number of seminal papers, knowing that the idea and discussions of misallocation will come up in different parts of the reading group. The first session will introduce the idea and the second and third sessions focus on misallocations in the capital and labor market respectively.
+
+### Session 1 (Date:) Introduction
+
+**Restuccia, D., & Rogerson, R. (2008). Policy distortions and aggregate productivity with heterogeneous establishments. Review of Economic dynamics, 11(4), 707-720.**
+
+**Hsieh, C. T., & Klenow, P. J. (2009). Misallocation and manufacturing TFP in China and India. The Quarterly Journal of Economics, 124(4), 1403-1448.**
+
+Bartelsman, E., Haltiwanger, J., & Scarpetta, S. (2013). Cross-country differences in productivity: The role of allocation and selection. American Economic Review, 103(1), 305-34.
+
+Overview: 
+
+Restuccia, D., & Rogerson, R. (2017). The causes and costs of misallocation. Journal of Economic Perspectives, 31(3), 151-74.
+
+### Session 2 (Date: ) Capital Misallocation
+
+Buera, F. J., Kaboski, J. P., & Shin, Y. (2011). Finance and development: A tale of two sectors. American Economic Review, 101(5), 1964-2002.
+
+Buera, F. J., & Shin, Y. (2013). Financial frictions and the persistence of history: A quantitative exploration. Journal of Political Economy, 121(2), 221-272.
+
+Moll, B. (2014). Productivity losses from financial frictions: Can self-financing undo capital misallocation?. American Economic Review, 104(10), 3186-3221.
+
+Midrigan, Virgiliu, and Daniel Yi Xu. 2014. "Finance and Misallocation: Evidence from Plant-Level Data." American Economic Review, 104 (2): 422-58. 
+
+### Session 3 (Date: ) Labor Misallocation
+
+There can be multiple drivers of labor misallocation. A number of recent papers have looked at migration/transition costs between sectors/jobs as such sources. As for the case of capital misallocation, plenty of channels are still understudied. 
+
+Herrendorf, B., & Schoellman, T. (2018). Wages, human capital, and barriers to structural transformation. American Economic Journal: Macroeconomics, 10(2), 1-23.
+
+Lagakos, D., Mobarak, A. M., & Waugh, M. E. (2018). The welfare effects of encouraging rural-urban migration (No. w24193). National Bureau of Economic Research.
+
+Bryan, G., & Morten, M. (2019). The aggregate productivity effects of internal migration: Evidence from Indonesia. Journal of Political Economy, 127(5), 000-000.
+
+## Part 2: Structural Change
+
+In this part of the reading group, we will pick up another important part in the macro development literature: namely, structural change: employment changes across broad sectors in the economy (e.g. agriculture, industry, services) over the course of development. The first session will review a number of seminal theoretical papers that provide a backbone for further discussions. Session 2 will discuss more recent papers that credibly combine theory and empirics. Session 3 could discuss the role of informality, as this has received a lot of attention in recent years.
+
+### Session 1 (Date: ) Theoretical building blocs for structural change
+
+Kongsamut, P., Rebelo, S., & Xie, D. (2001). Beyond balanced growth. The Review of Economic Studies, 68(4), 869-882.
+
+Ngai and Pissarides (2007): ’Structural Change in a Multisector Model of Growth’, American Economic Review, vol. 97(1), pages 429-443
+
+Boppart, T. (2014). Structural change and the Kaldor facts in a growth model with relative price effects and non-Gorman preferences. Econometrica, 82(6), 2167-2196.
+
+Herrendorf, B., Rogerson, R., & Valentinyi, A. (2013). Two perspectives on preferences and structural transformation. American Economic Review, 103(7), 2752-89.
+
+Laitner, John.  2000. "Structural Change and Economic Growth." Review of Economic Studies 67(3): 545–561.
+
+Overview: 
+
+Herrendorf, B., Rogerson, R., & Valentinyi, Á. (2014). Growth and structural transformation. In Handbook of economic growth (Vol. 2, pp. 855-941). Elsevier.
+
+Buera, F. J., & Kaboski, J. P. (2009). Can traditional theories of structural change fit the data?. Journal of the European Economic Association, 7(2-3), 469-477.
+
+### Session 2 (Date: ) Recent structural change papers
+
+Bustos, P., Caprettini, B., & Ponticelli, J. (2016). Agricultural productivity and structural transformation: Evidence from Brazil. American Economic Review, 106(6), 1320-65.
+
+Gollin, D., Hansen, C. W., & Wingender, A. (2018). Two blades of grass: The impact of the green revolution (No. w24744). National Bureau of Economic Research.
+
+Moscona, J. (2019). Agricultural development and structural change within and across countries. Working Paper
+
+Alvarez-Cuadrado, F., & Poschke, M. (2011). Structural change out of agriculture: Labor push versus labor pull. American Economic Journal: Macroeconomics, 3(3), 127-58.
+
+Lee, D., & Wolpin, K. I. (2006). Intersectoral labor mobility and the growth of the service sector. Econometrica, 74(1), 1-46.
+
+Rodrik, D. (2012). Unconditional convergence in manufacturing. The Quarterly Journal of Economics, 128(1), 165-204.
+
+### Session 4 (Date:) Informality 
+
+Ulyssea, G. (2018). Firms, informality, and development: Theory and evidence from Brazil. American Economic Review, 108(8), 2015-47.
+
+Overview:
+
+La Porta, R., & Shleifer, A. (2014). Informality and development. Journal of Economic Perspectives, 28(3), 109-26.
+
+
+## Part 3: Growth & Economic history
+
+Building on the readings on structural change, a natural follow-up question would be why there has been so little structural change in history, or at least so little permanent structural change. There is a large literature at the intersection of Economic History and Growth Economics who look at this in the context of Malthusian models and the transition to more modern growth regimes as captured in Unified Growth theory. While much of this literature is fairly old, the recent surge in good empirical work on Economic History could also offer potentials for quantitative macro approaches combining previous macro models with more recent empirical evidence to give more systematic accounts of development in history.
+
+General background reference is: Acemoglu, D. (2009). Introduction to Modern Economic Growth. Princeton University Press.
+
+### The Economic Takeoff and the Demographic Transition: Unified Growth Theory
+
+**Galor,  Oded.   2004.   "From  Stagnation  to  Growth:  Unified  Growth  Theory."  Chapter 4 in Handbook of Economic Growth.**
+
+Galor, Oded and David N. Weil.  2000.  "Population, Technology, and Growth: From Malthusian Stagnation to the Demographic Transition and Beyond." American Economic Review 90(4): 806–828.
+
+Hansen,  Gary  D.  and  Edward  C.  Prescott.   2002.   "Malthus  to  Solow." American Economic Review 92(4): 1205–1217
+
+**Chatterjee, S., & Vogl, T. (2018). Escaping malthus: economic growth and fertility change in the developing world. American Economic Review, 108(6), 1440-67.**
+
+We could also look at more recent papers that use demography to explain phenomena in the US. E.g.:
+
+Karahan, F., Pugsley, B., & Şahin, A. (2019). Demographic origins of the startup deficit (No. w25874). National Bureau of Economic Research.
+
+### Accounting for growth paths
+
+In this part, we could also look at good applications of models that explain long-run growth of a particular country. A seminal paper is:
+
+**Song, Zheng, Kjetil Storesletten, et al. "Growing like China." The American Economic Review 101, no. 1 (2011): 196–233.**
+
+
+## Part 4: Labor markets
+
+Potentially include a number of more classic papers and then discuss more development-related papers. Some classic, seminal papers could also be related to labor market polarization and directed technological change as these might have interesting consequences for developing countries as well. 
+
+Jayachandran, S. (2006). Selling labor low: Wage responses to productivity shocks in developing countries. Journal of political Economy, 114(3), 538-575.
+
+Lagakos, D., Moll, B., Porzio, T., Qian, N., & Schoellman, T. (2018). Life cycle wage growth across countries. Journal of Political Economy, 126(2), 797-849.
+
+Donovan, K., Lu, J., & Schoellman, T. (2018, July). Labor Market Flows and Development. In 2018 Meeting Papers (Vol. 976). Society for Economic Dynamics.
+
+A really good overview on directed technical change, earnings inequality and polarization is given in: 
+
+Acemoglu, D., & Autor, D. (2011). Skills, tasks and technologies: Implications for employment and earnings. In Handbook of labor economics (Vol. 4, pp. 1043-1171). Elsevier.
+
+This has obvious implications for development. For example, how directed technical change is biased towards factor-composition of rich countries and thus even with perfect technology diffusion, we would see cross-country misallocation. See:
+
+Acemoglu, Daron, Zilibotti, Fabrizio, 2001. Productivity differences. Quarterly Journal of Economics 116, 563–606.
+
+## Part 5: Trade and its role for development
+
+There is a huge literature on trade; in this reading group we are interested in how trade fits into the broader picture of development: how does trade effect development. We will try to touch a number of subliteratures. 
+
+### Session 1 (Date: ) Consequences of Globalization
+
+One subliterature we are interested in is asking what are the downstream effects of globalization on developing countries. Globalization has primarily reduced transportation costs and amplified access to global markets. Important papers on this are by Dave Donaldson: 
+
+Donaldson, D. (2018). Railroads of the Raj: Estimating the impact of transportation infrastructure. American Economic Review, 108(4-5), 899-934.
+
+Atkin, D., & Donaldson, D. (2015). Who's getting globalized? The size and implications of intra-national trade costs (No. w21439). National Bureau of Economic Research. (R&R Econometrica)
+
+Especially the second paper is interesting to assess how individuals in developing countries even far away from global markets are affected. 
+
+Further references are: 
+
+Goldberg, P. K., & Pavcnik, N. (2007). Distributional effects of globalization in developing countries. Journal of economic Literature, 45(1), 39-82.
+
+Goldberg, P. K., Khandelwal, A. K., Pavcnik, N., & Topalova, P. (2010). Imported intermediate inputs and domestic product growth: Evidence from India. The Quarterly journal of economics, 125(4), 1727-1767.
+
+McCaig, B., & Pavcnik, N. (2018). Export markets and labor allocation in a low-income country. American Economic Review, 108(7), 1899-1941.
+
+Pavcnik, N. (2017). The impact of trade on inequality in developing countries (No. w23878). National Bureau of Economic Research.
+
+### Session 2 (Date:) International Macro Puzzles
+
+In the second session, we can look at some standard international macro puzzles and see how the literature has developed since Obstfeld and Rogoff's famous 6 puzzles and the puzzle of capital flows. 
+
+Obstfeld, M., & Rogoff, K. (2000). The six major puzzles in international macroeconomics: is there a common cause?. NBER macroeconomics annual, 15, 339-390.
+
+Eaton, J., Kortum, S., & Neiman, B. (2016). Obstfeld and Rogoff's international macro puzzles: a quantitative assessment. Journal of Economic Dynamics and Control, 72, 5-23.
+
+Mendoza, E. G., Quadrini, V., & Rios-Rull, J. V. (2009). Financial integration, financial development, and global imbalances. Journal of Political economy, 117(3), 371-416.
+
+Ohanian, L. E., Restrepo-Echavarria, P., & Wright, M. L. (2018). Bad Investments and Missed Opportunities? Postwar Capital Flows to Asia and Latin America. American Economic Review, 108(12), 3541-82.
+
+Gourinchas, P. O., & Jeanne, O. (2013). Capital flows to developing countries: The allocation puzzle. Review of Economic Studies, 80(4), 1484-1515.
+
+## Part 6: Public/Industrial Policy
+
+One could have a small part (potentially only one session) on recent work on optimal industrial policy in developing countries. There are two recent papers that come to mind that are worth reading carefully, although they are both difficult reads: 
+
+Itskhoki, O., & Moll, B. (2019). Optimal Development Policies With Financial Frictions. Econometrica, 87(1), 139-173.
+
+Liu, E. (forthcoming). Industrial policies in production networks. Quarterly Journal of Economics
+
+Another reading could be:
+
+Epifani, P., & Gancia, G. (2011). Trade, markup heterogeneity and misallocations. Journal of International Economics, 83(1), 1-13.
+
+## Part 7: Political Economy
+
+This part focusses on the large literature on Political Economy. There are multiple subliteratures that are potentially of interest from a macro-development perspective. Here, we focus on two important parts of the literature. The first looks at the role of State Capacity as there is wide consensus in the development community that it determines long-run development. This is also a nice complement to the industrial and public policy part as public policies require state capacity. In the second session, we look at the role of political transitions and fundamental differences between political regimes. 
+
+### Session 1 (Date: ) State Capacity
+
+Acemoglu, D. (2005). Politics and economics in weak and strong states. Journal of monetary Economics, 52(7), 1199-1226.
+
+Besley, T., & Persson, T. (2009). The origins of state capacity: Property rights, taxation, and politics. American Economic Review, 99(4), 1218-44.
+
+Besley, T., & Persson, T. (2010). State capacity, conflict, and development. Econometrica, 78(1), 1-34.
+
+**Acemoglu, D., García-Jimeno, C., & Robinson, J. A. (2015). State capacity and economic development: A network approach. American Economic Review, 105(8), 2364-2409.**
+
+### Session 2 (Date: ) Political Transitions and Regime differences
+
+Acemoglu, D., & Robinson, J. A. (2001). A theory of political transitions. American Economic Review, 91(4), 938-963.
+
+Acemoglu, D., & Robinson, J. A. (2008). Persistence of power, elites, and institutions. American Economic Review, 98(1), 267-93.
+
+Acemoglu, D., & Robinson, J. A. (2006). Economic backwardness in political perspective. American political science review, 100(1), 115-131.
+
+Acemoglu, D. (2008). Oligarchic versus democratic societies. Journal of the European Economic Association, 6(1), 1-44.
+
+**Buchheim, L., & Ulbricht, R. (forthcoming). A Quantitative Theory of Political Transitions. Review of Economic Studies**
+
+## Further parts?
+
+There are a number of other areas in Macro-Development that could be highly interesting. Other PhDs might also want to push for some non-development macro topics. 
+
+Below, I list a number of papers that could be discussed but that didn't fit in with previous parts. 
+
+Hsieh, C. T., & Klenow, P. J. (2014). The life cycle of plants in India and Mexico. The Quarterly Journal of Economics, 129(3), 1035-1084.
+
+Akcigit, U., Alp, H., & Peters, M. (2019). Lack of selection and limits to delegation: firm dynamics in developing countries. Working Paper
+
+Koren, M., and S. Tenreyro. "Volatility and Development." The Quarterly Journal of Economics 122, no. 1 (2007): 243–87.

@@ -1,0 +1,15 @@
+---
+title: 'Long Run Development Effects of the Khmer Rouge: Evidence from Differences
+  in Regime Rigidity'
+author: "Jonas Gathen"
+date: "13 9 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+In this paper, I look at the long-run development consequences of the Khmer Rouge regime. I try to identify the causal effect of a plausibly exogenous difference in regime rigidity on development outcomes 15-20 years later. The study focuses on two specific bordering Khmer Rouge administrative zones to investigate the long-run effects on local development through a spatial regression discontinuity design and matching techniques. I do so by building on detailed spatial data on the village level, including data from the Cambodian census and on night light density for outcome variables. Data on geographic characteristics as well as the universe of US bombs dropped on Cambodia serve as controls. 
+
+I am currently working on improving the project on multiple fronts including the integration of better baseline data to reduce variance, improve the regression discontinuity implementation and also work on a structural model to better understand mechanisms over such a long time period. 

@@ -1,0 +1,16 @@
+name: research
+source:
+  - icon: fa fa-github
+    name: Patronage Economy Indonesia Project
+    description: I look at the quantitative importance of political connections in the development process in Indonesia.
+    url: https://jonasgathen.com/research_projects/patronage_economy/
+
+  - icon: fa fa-github
+    name: State Capacity project
+    description: I study the evolution of state capacity in a heterogeneous agent framework and via simulation.
+    url: https://jonasgathen.com/research_projects/public_sector_allocation/
+    
+  - icon: fa fa-github
+    name: Consequences of the Khmer Rouge genocide
+    description: I study the long run development effects of the Khmer Rouge in Cambodia by exploiting discontinuities in regime intensity along historic administrative boundaries.
+    url: https://jonasgathen.com/research_projects/khmer_rouge_consequences/
