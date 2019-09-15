@@ -17,11 +17,17 @@ This document gives a preliminary outline of the readings for the PhD macro read
 
 Misallocation on factor markets (capital and labor misallocation) provides an important framework with which one can better understand growth and development. Given that any distortion of factor markets can lead to misallocation, numerous different literatures can be framed in terms of "misallocation". Here, we start with a number of seminal papers, knowing that the idea and discussions of misallocation will come up in different parts of the reading group. The first session will introduce the idea and the second and third sessions focus on misallocations in the capital and labor market respectively.
 
-### Session 1 (Date:) Introduction
+### Session 1 (Date: Friday, 20th September 2019, 9:30-11am, Room: TBA) Introduction
+
+We will intensively discuss:
+
+**Hsieh, C. T., & Klenow, P. J. (2009). Misallocation and manufacturing TFP in China and India. The Quarterly Journal of Economics, 124(4), 1403-1448.**
+
+As a useful comparison, we can also briefly discuss:
 
 **Restuccia, D., & Rogerson, R. (2008). Policy distortions and aggregate productivity with heterogeneous establishments. Review of Economic dynamics, 11(4), 707-720.**
 
-**Hsieh, C. T., & Klenow, P. J. (2009). Misallocation and manufacturing TFP in China and India. The Quarterly Journal of Economics, 124(4), 1403-1448.**
+which is short and can be easily skimmed before the reading group. Other relevant papers that are not mandatory reading are:
 
 Bartelsman, E., Haltiwanger, J., & Scarpetta, S. (2013). Cross-country differences in productivity: The role of allocation and selection. American Economic Review, 103(1), 305-34.
 
