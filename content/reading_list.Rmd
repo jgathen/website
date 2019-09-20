@@ -2,7 +2,9 @@
 title: "Reading list Macro-Development"
 author: "TSE Macro + Development PhD students"
 date: "13th September, 2019"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
@@ -35,15 +37,20 @@ Overview:
 
 Restuccia, D., & Rogerson, R. (2017). The causes and costs of misallocation. Journal of Economic Perspectives, 31(3), 151-74.
 
-### Session 2 (Date: ) Capital Misallocation
+### Session 2 (Date: 25.9.19, 9:30-11am, Room: TBA) Capital Misallocation
 
-Buera, F. J., Kaboski, J. P., & Shin, Y. (2011). Finance and development: A tale of two sectors. American Economic Review, 101(5), 1964-2002.
+We will discuss the following two different papers: 
+
+**Buera, F. J., Kaboski, J. P., & Shin, Y. (2011). Finance and development: A tale of two sectors. American Economic Review, 101(5), 1964-2002.**
+
+**Midrigan, Virgiliu, and Daniel Yi Xu. 2014. "Finance and Misallocation: Evidence from Plant-Level Data." American Economic Review, 104 (2): 422-58.**
+
+Make sure to read at least one of the two papers before the meeting. A number of other papers in this literature are closely related, e.g.:
 
 Buera, F. J., & Shin, Y. (2013). Financial frictions and the persistence of history: A quantitative exploration. Journal of Political Economy, 121(2), 221-272.
 
 Moll, B. (2014). Productivity losses from financial frictions: Can self-financing undo capital misallocation?. American Economic Review, 104(10), 3186-3221.
 
-Midrigan, Virgiliu, and Daniel Yi Xu. 2014. "Finance and Misallocation: Evidence from Plant-Level Data." American Economic Review, 104 (2): 422-58. 
 
 ### Session 3 (Date: ) Labor Misallocation
 

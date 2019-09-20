@@ -52,5 +52,5 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   name = "reading list"
   identifier = "reading list"
   weight = 500
-  url = "/reading_list.pdf"
+  url = "/reading_list/"
   
