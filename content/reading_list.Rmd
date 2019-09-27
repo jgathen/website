@@ -52,9 +52,13 @@ Buera, F. J., & Shin, Y. (2013). Financial frictions and the persistence of hist
 Moll, B. (2014). Productivity losses from financial frictions: Can self-financing undo capital misallocation?. American Economic Review, 104(10), 3186-3221.
 
 
-### Session 3 (Date: ) Labor Misallocation
+### Session 3 (Date: 2.10.19., 9:30-11am, MF323) Labor Misallocation
 
-There can be multiple drivers of labor misallocation. A number of recent papers have looked at migration/transition costs between sectors/jobs as such sources. As for the case of capital misallocation, plenty of channels are still understudied. 
+We are going to discuss the role of labor misallocation by looking at:
+
+**Lagakos, D., Moll, B., Porzio, T., Qian, N., & Schoellman, T. (2018). Life cycle wage growth across countries. Journal of Political Economy, 126(2), 797-849.**
+
+A number of recent papers have looked at migration/transition costs between sectors/jobs as sources of labor misallocation. As for the case of capital misallocation, plenty of channels are still understudied. 
 
 Herrendorf, B., & Schoellman, T. (2018). Wages, human capital, and barriers to structural transformation. American Economic Journal: Macroeconomics, 10(2), 1-23.
 
