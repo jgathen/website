@@ -72,6 +72,8 @@ In this part of the reading group, we will pick up another important part in the
 
 ### Session 1 (Date: 9.10., 9:30-11am, MF323) Theoretical building blocs for structural change
 
+**Comin, D. A., Lashkari, D., & Mestieri, M. (2019). Structural change with long-run income and price effects. Working Paper (R&R ECMA)**
+
 Kongsamut, P., Rebelo, S., & Xie, D. (2001). Beyond balanced growth. The Review of Economic Studies, 68(4), 869-882.
 
 Ngai and Pissarides (2007): ’Structural Change in a Multisector Model of Growth’, American Economic Review, vol. 97(1), pages 429-443
@@ -80,17 +82,21 @@ Boppart, T. (2014). Structural change and the Kaldor facts in a growth model wit
 
 Herrendorf, B., Rogerson, R., & Valentinyi, A. (2013). Two perspectives on preferences and structural transformation. American Economic Review, 103(7), 2752-89.
 
+Buera, F. J., & Kaboski, J. P. (2009). Can traditional theories of structural change fit the data?. Journal of the European Economic Association, 7(2-3), 469-477.
+
 Laitner, John.  2000. "Structural Change and Economic Growth." Review of Economic Studies 67(3): 545–561.
 
 Overview: 
 
 Herrendorf, B., Rogerson, R., & Valentinyi, Á. (2014). Growth and structural transformation. In Handbook of economic growth (Vol. 2, pp. 855-941). Elsevier.
 
-Buera, F. J., & Kaboski, J. P. (2009). Can traditional theories of structural change fit the data?. Journal of the European Economic Association, 7(2-3), 469-477.
-
 ### Session 2 (Date: 16.10., 9:30-11am, MF323) Recent structural change papers
 
-Bustos, P., Caprettini, B., & Ponticelli, J. (2016). Agricultural productivity and structural transformation: Evidence from Brazil. American Economic Review, 106(6), 1320-65.
+We will read:
+
+**Bustos, P., Caprettini, B., & Ponticelli, J. (2016). Agricultural productivity and structural transformation: Evidence from Brazil. American Economic Review, 106(6), 1320-65.**
+
+But the following other papers are also very interesting:
 
 Gollin, D., Hansen, C. W., & Wingender, A. (2018). Two blades of grass: The impact of the green revolution (No. w24744). National Bureau of Economic Research.
 
@@ -102,6 +108,7 @@ Lee, D., & Wolpin, K. I. (2006). Intersectoral labor mobility and the growth of 
 
 Rodrik, D. (2012). Unconditional convergence in manufacturing. The Quarterly Journal of Economics, 128(1), 165-204.
 
+Rodrik, D. (2016). Premature deindustrialization. Journal of Economic Growth, 21(1), 1-33.
 
 ## Part 3: Growth & Economic history
 
