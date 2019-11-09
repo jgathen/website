@@ -141,17 +141,17 @@ In this part, we could look at good applications of models that explain long-run
 
 There is a huge literature on trade; in this reading group we are interested in how trade fits into the broader picture of development: how does trade effect development. We will try to touch a number of subliteratures. 
 
-### Session 1 (Date: ) Consequences of Globalization
+### Session 1 (Date: 13.11., 9:30-11am, Room: new building) Consequences of Globalization
 
-One subliterature we are interested in is asking what are the downstream effects of globalization on developing countries. Globalization has primarily reduced transportation costs and amplified access to global markets. Important papers on this are by Dave Donaldson: 
+One subliterature we are interested in is asking what are the downstream effects of globalization on developing countries. Globalization has primarily reduced transportation costs and amplified access to global markets. We will read:
 
-Donaldson, D. (2018). Railroads of the Raj: Estimating the impact of transportation infrastructure. American Economic Review, 108(4-5), 899-934.
+**Atkin, D., & Donaldson, D. (2015). Who's getting globalized? The size and implications of intra-national trade costs (No. w21439). National Bureau of Economic Research. (R&R Econometrica)**
 
-Atkin, D., & Donaldson, D. (2015). Who's getting globalized? The size and implications of intra-national trade costs (No. w21439). National Bureau of Economic Research. (R&R Econometrica)
-
-Especially the second paper is interesting to assess how individuals in developing countries even far away from global markets are affected. 
+This paper is interesting to assess how individuals in developing countries even far away from global markets are affected by globalization. 
 
 Further references are: 
+
+Donaldson, D. (2018). Railroads of the Raj: Estimating the impact of transportation infrastructure. American Economic Review, 108(4-5), 899-934.
 
 Goldberg, P. K., & Pavcnik, N. (2007). Distributional effects of globalization in developing countries. Journal of economic Literature, 45(1), 39-82.
 
@@ -161,11 +161,13 @@ McCaig, B., & Pavcnik, N. (2018). Export markets and labor allocation in a low-i
 
 Pavcnik, N. (2017). The impact of trade on inequality in developing countries (No. w23878). National Bureau of Economic Research.
 
-### Session 2 (Date:) International Macro Puzzles
+### Session 2 (Date: 20.11., 9:30-11am, Room: new building) International Macro Puzzles
 
-In the second session, we can look at some standard international macro puzzles and see how the literature has developed since Obstfeld and Rogoff's famous 6 puzzles and the puzzle of capital flows. 
+In the second session, we will look at some standard international macro puzzles and see how the literature has developed since Obstfeld and Rogoff's famous 6 puzzles and the puzzle of capital flows. We will read:
 
-Obstfeld, M., & Rogoff, K. (2000). The six major puzzles in international macroeconomics: is there a common cause?. NBER macroeconomics annual, 15, 339-390.
+**Obstfeld, M., & Rogoff, K. (2000). The six major puzzles in international macroeconomics: is there a common cause?. NBER macroeconomics annual, 15, 339-390.**
+
+Further references:
 
 Eaton, J., Kortum, S., & Neiman, B. (2016). Obstfeld and Rogoff's international macro puzzles: a quantitative assessment. Journal of Economic Dynamics and Control, 72, 5-23.
 
@@ -175,7 +177,7 @@ Ohanian, L. E., Restrepo-Echavarria, P., & Wright, M. L. (2018). Bad Investments
 
 Gourinchas, P. O., & Jeanne, O. (2013). Capital flows to developing countries: The allocation puzzle. Review of Economic Studies, 80(4), 1484-1515.
 
-## Part 5: Public/Industrial Policy
+## Part 5: Public/Industrial Policy (Date: 27.11., 9:30-11am, Room: new building)
 
 Here we will look at optimal industrial and public policy in developing countries. There are two recent papers that come to mind that are worth reading carefully, although they are both difficult reads: 
 
@@ -183,15 +185,11 @@ Itskhoki, O., & Moll, B. (2019). Optimal Development Policies With Financial Fri
 
 Liu, E. (forthcoming). Industrial policies in production networks. Quarterly Journal of Economics
 
-Another reading could be:
-
-Epifani, P., & Gancia, G. (2011). Trade, markup heterogeneity and misallocations. Journal of International Economics, 83(1), 1-13.
-
 ## Part 6: Political Economy
 
 The last part focusses on the large literature on Political Economy. There are multiple subliteratures that are potentially of interest from a macro-development perspective. Here, we focus on two important parts of the literature. The first looks at the role of State Capacity as there is wide consensus in the development community that it determines long-run development. This is also a nice complement to the industrial and public policy part as public policies require state capacity. In the second session, we look at the role of political transitions and fundamental differences between political regimes. 
 
-### Session 1 (Date: ) State Capacity
+### Session 1 (Date: 4.12., 9:30-11am, Room: new building) State Capacity
 
 Acemoglu, D. (2005). Politics and economics in weak and strong states. Journal of monetary Economics, 52(7), 1199-1226.
 
@@ -201,7 +199,7 @@ Besley, T., & Persson, T. (2010). State capacity, conflict, and development. Eco
 
 **Acemoglu, D., García-Jimeno, C., & Robinson, J. A. (2015). State capacity and economic development: A network approach. American Economic Review, 105(8), 2364-2409.**
 
-### Session 2 (Date: ) Political Transitions and Regime differences
+### Session 2 (Date: 11.12., 9:30-11am, Room: new building) Political Transitions and Regime differences
 
 Acemoglu, D., & Robinson, J. A. (2001). A theory of political transitions. American Economic Review, 91(4), 938-963.
 
