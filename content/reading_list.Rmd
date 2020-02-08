@@ -13,6 +13,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introduction
 
+You can find the reading lists from previous semesters here: 
+- [2019](https://www.jonasgathen.com/reading_list_old19.html)
+
 This document gives a preliminary outline of the readings for the PhD macro reading group for the fall semester 2019 at TSE. The overall topic of the reading group this semester focusses on macro development, although a couple of seminal non-development macro papers will be discussed as well. The schedule of the reading group will consist of a number of semi-independent parts that will all take between 1 to 3 weeks. PhD students wanting to participate in a few sessions of the reading group should seek to commit at least for entire parts. Below, each section will outline readings for a separate part. **Readings in bold are required reading before each session**. Other readings listed are optional readings that may also be discussed during the sessions or can be read afterwards. 
 
 ## Part 1: Misallocation and Development
