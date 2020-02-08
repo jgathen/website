@@ -1,0 +1,16 @@
+---
+title: "Patronage Economy Indonesia Project"
+author: "Jonas Gathen"
+date: "08 02 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+In this paper I look at the role of political connections in the development process by building a heterogeneous occupational choice model. Individuals can work as microentrepreneurs, as permanent employees in firms or run their own firm. Firms pay taxes and these taxes are - with some losses due to corruption and low state capacity - invested in infrastructure and institutions that are productive inputs for firms. Some entrepreneurs running a firm can be politically connected. In this case, they can accumulate political capital buying them government favors and patronage modeled as reductions in taxes or even net transfers. 
+
+Political connections thus have aggregate effects through their detrimental effect on institutions and can generate distortions (1) along the extensive margin since fewer individuals will find it profitable to become entrepreneurs as institutions are weaker and running a firm is less profitable and (2) along the intensive margin since weak institutions will lead to less capital and labor investments due to complementarities of institutions and factor inputs. This can have large aggregate consequences. It also distorts the cross-sectional distribution of firms as entrepreneurs with bad ideas but good political connections run larger firms than they would otherwise do while individuals with good ideas but bad political connections may run inefficiently small firms or do not even start a firm due to weak institutions. 
+
+To assess the aggregate consequences of political connections, I fit the model to the case of Indonesia, using detailed household- and firm-level panel data as well as a number of important empirical moments on political connections (including quasi-experimental moments). Identification follows a Simulated Method of Moments approach where I match key empirical moments of the Indonesian economy. The role of political connections is quantified by observing a fraction of politically connected firms in the firm panel data and using both observed shocks to political connections over time as well as cross-sectional variation across connected firms. The crucial role of institutions is identified by using regional variation in local governmental spending induced by a large, national devolution process started in Indonesia in the early 2000s. 

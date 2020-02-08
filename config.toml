@@ -24,7 +24,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params.social]
   Github        = "jgathen"
-  Email         = "j.gathen@posteo.de"
+  Email         = "jonas.gathen@tse-fr.eu"
   LinkedIn      = "jonas-gathen-07a5b866"
 
 ## Main Menu
