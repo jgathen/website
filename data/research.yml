@@ -6,8 +6,13 @@ source:
     url: https://jonasgathen.com/research_projects/patronage_indonesia/
 
   - icon: fa fa-github
-    name: State Capacity project
-    description: I study the evolution of state capacity in a heterogeneous agent framework and via simulation.
+    name: Civil Servant Hiring Project
+    description: I dentify and quantify the quality of government worker selection and apply it to Indonesia from 1988-2015.
+    url: https://jonasgathen.com/research_projects/public_sector_allocation/
+    
+  - icon: fa fa-github
+    name: State Capacity
+    description: On-going work to build a structural model of State Capacity. 
     url: https://jonasgathen.com/research_projects/public_sector_allocation/
     
   - icon: fa fa-github

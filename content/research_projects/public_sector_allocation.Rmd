@@ -1,0 +1,14 @@
+---
+title: "Government jobs to whom? Identifying the Quality of Civil Servant Selection in Indonesia"
+author: "Jonas Gathen"
+date: "`r format(Sys.Date(), format = '%b %d, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Abstract
+
+This paper provides an estimation approach that identifies and quantifies the quality of government worker selection and applies this to Indonesia from 1988-2015. Specifically, I assume that workers have idiosyncratic skills at the time of labor market entry. These skills can be multi-dimensional and determine their potential productivity in working for the state. This paper asks how we can quantitatively assess whether the government is good at selecting qualified government workers if we can neither measure final output of the government in a satisfactory way nor have competitively priced inputs. In the setup I propose, the selection rule of interest is the relative probability of being selected as a function of the underlying skills of the applicant pool. The selection rule that I identify in this paper is the reduced-form function over unobserved worker skills according to which the government de facto selects its workers and will flexibly capture the influence of entry restrictions, patronage, cronyism, the selling of government jobs and various other hurdles of obtaining a government-sector job. The quality of government workers actually selected will then depend on three interacting factors: the selection rule, the quality of the applicant pool and the number of individuals to be hired. I propose an estimation approach to disentangle and quantify all three factors. The approach crucially builds on flexibly estimating skills from wages in comparable private sector jobs (as these are assumed to be closely related to skills) and flexibly projecting these on a wide-range of skill-related observables via Machine Learning algorithms. I can then predict government worker skills out-of-sample using the same skill-related observables. To finally obtain the applicant pool, I can either draw on direct survey evidence or on a structural economic model. Using the approach for Indonesia allows to quantify the evolution of government selection over a period of democratization and decentralization, evaluate recent Civil Service reforms and study a number of interesting counterfactuals. The estimation approach can also be seen as a first step towards a structural model of state capacity and its evolution.
