@@ -11,7 +11,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Introduction
+**UPDATE:** There is a new Macro-Development Reading Group at TSE for the academic year 2021-2022. You can find details and the reading list [here](https://www.jonasgathen.com/RG_Outline_2021.pdf)
 
 You can find the reading lists from previous semesters here: 
 
