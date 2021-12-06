@@ -1,7 +1,7 @@
 ---
 title: "The Consequences of Political Connections - Quantifying aggregate development effects from firm-size distortions in Indonesia"
 author: "Jonas Gathen"
-date: "`r format(Sys.Date(), format = '%b %d, %Y')`"
+date: "2021-11-30T00:00:00"
 output: html_document
 ---
 
