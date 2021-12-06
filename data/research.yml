@@ -1,9 +1,14 @@
 name: research
 source:
   - icon: fa fa-github
-    name: Patronage Economy Indonesia Project
-    description: I look at the quantitative importance of political connections in the development process in Indonesia.
+    name: The Consequences of Political Connections
+    description: Quantifying aggregate development effects from firm-size distortions in Indonesia
     url: https://jonasgathen.com/research_projects/patronage_indonesia/
+    
+  - icon: fa fa-github
+    name: Growth and the firm-size distribution over the long-run
+    description: In this paper, we study the link between rapid economic growth and changes in the firm size distribution using 40 years of manufacturing micro-data
+    url: https://jonasgathen.com/research_projects/long_run_firm_dynamics/
 
   - icon: fa fa-github
     name: Civil Servant Hiring Project
@@ -16,6 +21,6 @@ source:
     url: https://jonasgathen.com/research_projects/public_sector_allocation/
     
   - icon: fa fa-github
-    name: Consequences of the Khmer Rouge genocide
+    name: Consequences of the Khmer Rouge genocide (old + dormant)
     description: I study the long run development effects of the Khmer Rouge in Cambodia by exploiting discontinuities in regime intensity along historic administrative boundaries.
-    url: https://jonasgathen.com/research_projects/khmer_rouge_consequences/
+    #url: https://jonasgathen.com/research_projects/khmer_rouge_consequences/

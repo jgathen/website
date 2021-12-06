@@ -1,7 +1,7 @@
 ---
 title: "Government jobs to whom? Identifying the Quality of Civil Servant Selection in Indonesia"
 author: "Jonas Gathen"
-date: "`r format(Sys.Date(), format = '%b %d, %Y')`"
+date: "2020-10-21T00:00:00"
 output: html_document
 ---
 
