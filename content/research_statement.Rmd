@@ -1,8 +1,10 @@
 ---
 title: "Research statement"
 author: "Jonas Gathen"
-date: "`r format(Sys.Date(), format = '%b %d, %Y')`"
-output: html_document
+date: "15th November, 2021"
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
