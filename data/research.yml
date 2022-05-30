@@ -1,9 +1,9 @@
 name: research
 source:
   - icon: fa fa-github
-    name: The Consequences of Political Connections
-    description: Quantifying aggregate development effects from firm-size distortions in Indonesia
-    url: https://jonasgathen.com/research_projects/patronage_indonesia/
+    name: The Aggregate Costs of Political Connections (submitted)
+    description: Quantifying aggregate development effects from firm-size distortions in Indonesia [Abstract](https://www.jonasgathen.com/research_projects/patronage_indonesia)
+    url: https://jonasgathen.com/research_projects/papers/Gathen_2022_The_Aggregate_Costs_of_Political_Connections.pdf
     
   - icon: fa fa-github
     name: Growth and the firm-size distribution over the long-run
