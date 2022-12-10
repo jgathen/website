@@ -1,12 +1,12 @@
 name: research
 source:
   - icon: fa fa-github
-    name: Historical Persistence and the Dynamics of Development (w/ Oscar Fentanes) \color{red}{NEW!!}
+    name: Historical Persistence and the Dynamics of Development (w/ Oscar Fentanes) NEW!!
     description: Quantify importance of historical persistence in explaining observed economic growth using 40 years of manufacturing micro-data
     url: https://jonasgathen.com/research_projects/papers/Fentanes_Gathen_2022_Historical_Persistence_Dynamics_of_Development.pdf
     
   - icon: fa fa-github
-    name: The Aggregate Costs of Political Connections (reject and resubmitted) \color{red}{NEW!!}
+    name: The Aggregate Costs of Political Connections (reject and resubmitted) NEW!!
     description: Quantifying aggregate development effects from firm-size distortions in Indonesia
     url: https://jonasgathen.com/research_projects/papers/Gathen_2022_The_Aggregate_Costs_of_Political_Connections.pdf
     
