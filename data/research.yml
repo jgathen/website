@@ -1,14 +1,24 @@
 name: research
 source:
   - icon: fa fa-github
-    name: The Aggregate Costs of Political Connections (submitted)
+    name: Historical Persistence and the Dynamics of Development (w/ Oscar Fentanes) \color{red}{NEW!!}
+    description: Quantify importance of historical persistence in explaining observed economic growth using 40 years of manufacturing micro-data
+    url: https://jonasgathen.com/research_projects/papers/Fentanes_Gathen_2022_Historical_Persistence_Dynamics_of_Development.pdf
+    
+  - icon: fa fa-github
+    name: The Aggregate Costs of Political Connections (reject and resubmitted) \color{red}{NEW!!}
     description: Quantifying aggregate development effects from firm-size distortions in Indonesia
     url: https://jonasgathen.com/research_projects/papers/Gathen_2022_The_Aggregate_Costs_of_Political_Connections.pdf
     
   - icon: fa fa-github
-    name: Growth and the plant-size distribution over the long-run (w/ Oscar Fentanes)
-    description: Study link between rapid economic growth and changes in the plant size distribution using 40 years of manufacturing micro-data
-    url: https://jonasgathen.com/research_projects/long_run_firm_dynamics/
+    name: Income Inequality and the Dynamics of Structural Change (work in progress, ask for draft)    
+    description: Link changes in income heterogeneity and structural change by drawing on household and plant-level micro-data
+    #url: 
+    
+  - icon: fa fa-github
+    name: Decentralization in Indonesia and Local Outcomes (w/ Stéphane Straub and Vitalijs Jascisens, draft available)    
+    description: Study effect of changes in local govt revenue on expenditures and efficiency of govt spending
+    #url: 
 
   - icon: fa fa-github
     name: Civil Servant Hiring Project
@@ -22,5 +32,5 @@ source:
     
   - icon: fa fa-github
     name: Consequences of the Khmer Rouge genocide (old + dormant)
-    description: I study the long run development effects of the Khmer Rouge in Cambodia by exploiting discontinuities in regime intensity along historic administrative boundaries.
+    description: Study the long run development effects of the Khmer Rouge in Cambodia by exploiting discontinuities in regime intensity along historic administrative boundaries.
     #url: https://jonasgathen.com/research_projects/khmer_rouge_consequences/
